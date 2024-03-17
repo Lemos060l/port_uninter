@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<!--Utilização do stylesheet pora linka o css e o link rel para sa fontes utilizadas do google. -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600&display=swap" rel="stylesheet">
+  <title>Portfólio</title>
+</head>
+
+<!--  Usando Header e nav para intorduzir o começo do site. -->
+
+<body>
+  <header class="header">
+    <img src="./img/Matheus Carvalho.svg" alt="logo nome" width="387" height="38">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--  Adicionando os dados sobre , usando a tag strong para destacar partes importantes.  -->
+
+  <main class="sobre" id="sobre ">
+    <section>
+      <h1>Sobre</h1>
+      <p class="sobre-texto"> Cursando tecnólogo em <strong>Análise e Desenvolvimento de Sistema </strong> estou em busca de uma oportunidade para ingressar na área de tecnologia e desenvolvimento de software.<br> Possuo familiaridade com tecnologias como <strong> HTML, CSS e Javascript </strong> além de conhecimentos com C#, Angular, Bootstrap, banco de dados MySQL e metodologias ágeis.</p>
+      <div class="hobbie">
+        <h3>Hobbies</h3>
+        <ul class="hobbie-lista">
+          <li>Leitura</li>
+          <li>Série</li>
+          <li>Jogar</li>
+          <li>Viajar</li>
+          <li>Praticar esporte</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!--  Adcionando um pouco da minha formação acadêmica -->
+
+  <section class="formacao" id="formacao">
+    <h1>Formação</h1>
+    <p class="formacao-texto">Iniciei minha formação com <strong>cursos intensivos</strong> onlines é agora estou conciliando os mesmo com um <strong>tecnologo</strong>.</p>
+    <div class="cursos-extras">
+      <div class="cursos">
+        <h3>Cursos</h3>
+        <ul>
+          <li>Informática para Internet <span>INTENSIVO</span>
+          </li>
+          <li>Origamid <span>INTENSIVO</span></li>
+          <li>Análise e desenvolvimento de Sistemas <span>TÉCNOLOGO</span></li>
+          <li>Desenvolvimento de Sistemas <span>TÉCNICO</span></li>
+        </ul>
+      </div>
+      <div class="idiomas">
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Inglês <span>Básico</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Div criada para colocar as rede socais, contato e o portfolio do github.   -->
+
+  <div class="portfolio" id="portfolio">
+    <div class="portfolio-container">
+      <h1 class="portfolio-texto">Meios de comunicação e portfólio
+      </h1>
+      <ul class="portfolio-contato">
+        <li><a href="mailto:lemosm060@gmail.com">@e-mail</a></li>
+        <li><a href="https://github.com/Lemos060l">@github</a></li>
+        <li><a href="https://www.linkedin.com/in/matheus-lemos-b8b40224a/">@linkedin</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--  Utilizando o footer para delimitar a última parte do site e introduzir o form -->
+
+  <footer class="contato" id="contato">
+    <h1>Entre em contato</h1>
+    <form class="form" action="#contato">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+      </div>
+
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(00) 31 99999-9999">
+      </div>
+
+      <div class="col-2">
+        <label for="email">Email </label>
+        <input type="text" id="email " name="email" placeholder="matheus@email.com">
+      </div>
+
+      <div class="col-2">
+        <label for="mensagem">Mensagem</label>
+        <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa"></textarea>
+      </div>
+
+      <button class="botao">ENVIAR</button>
+
+    </form>
+  </footer>
+
+</body>
+
+</html>
